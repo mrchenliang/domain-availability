@@ -9,6 +9,21 @@ This downloads a [list of TLDs](https://data.iana.org/TLD/tlds-alpha-by-domain.t
 **Note**: A domain will be reported as available when your (specified) DNS server states that the domain does not exist
 ([NXDOMAIN](https://tools.ietf.org/html/rfc2308#section-2.1)). A domain will also be reported as not available when the DNS server times out.
 
+## Setup
+
+clone the repo:
+```bash
+git clone git@github.com:mrchenliang/domain-availability.git
+```
+navigate into the folder:
+```bash
+cd domain_availability
+```
+give it execution permission:
+```bash
+chmod +x ./domain_availability.sh
+```
+
 ## Usage
 
 ```bash
